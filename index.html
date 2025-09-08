@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>क्रांतिकारी लाईनस्टाफ सेना – अधिकृत अ‍ॅप वेबसाईट</title>
+  <meta name="description" content="क्रांतिकारी लाईनस्टाफ सेना – वीज कर्मचारी व लाईनमन यांच्यासाठी खास अ‍ॅप. सदस्यत्व, उपक्रम, अद्ययावत माहिती व सेवा."/>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Hind', system-ui, -apple-system, Segoe UI, Roboto, sans-serif}
+    .container{max-width:1200px}
+    .glass{backdrop-filter: blur(6px); background: rgba(255,255,255,0.7)}
+    .shadow-soft{box-shadow:0 10px 25px rgba(0,0,0,.08)}
+    .badge{background:rgba(255,255,255,.85)}
+    .anchor-offset{scroll-margin-top:90px}
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Top Bar -->
+  <div class="bg-orange-600 text-white text-sm">
+    <div class="container mx-auto px-4 py-2 flex flex-col md:flex-row md:items-center md:justify-between">
+      <p class="font-medium">क्रांतिकारी लाईनस्टाफ सेना – वीज कर्मचारीांसाठी एकत्र येण्याचा डिजिटल मंच</p>
+      <p class="opacity-90">सूचना: हे अ‍ॅप कोणत्याही शासकीय संस्थेशी संलग्न नाही.</p>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="bg-white sticky top-0 z-40 shadow-soft">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Replace src with your hosted logo path -->
+        <img src="./assets/KLS_LOGO.webp" onerror="this.src='https://dummyimage.com/56x56/ff7f00/ffffff.png&text=KLS'" alt="KLS Logo" class="w-14 h-14 rounded-full border-2 border-orange-600"/>
+        <div>
+          <h1 class="text-xl md:text-2xl font-bold text-orange-700">क्रांतिकारी लाईनस्टाफ सेना</h1>
+          <p class="text-sm text-gray-500">Krantikari Linestaff Sena</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="#home" class="hover:text-orange-700">मुख्यपृष्ठ</a>
+        <a href="#features" class="hover:text-orange-700">मुख्य वैशिष्ट्ये</a>
+        <a href="#membership" class="hover:text-orange-700">सदस्यत्व</a>
+        <a href="#activities" class="hover:text-orange-700">संघाचे उपक्रम</a>
+        <a href="#events" class="hover:text-orange-700">मीटिंग व अपडेट्स</a>
+        <a href="#contact" class="hover:text-orange-700">संपर्क</a>
+        <a href="#legal" class="hover:text-orange-700">कायदेशीर धोरणे</a>
+      </nav>
+      <a href="#download" class="hidden md:inline-block bg-orange-600 text-white px-4 py-2 rounded-xl hover:bg-orange-700">अ‍ॅप डाउनलोड</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="anchor-offset">
+    <div class="container mx-auto px-4 py-10 md:py-14 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+          वीज कर्मचारी आणि लाईनमन यांच्यासाठी <span class="text-orange-700">एकत्र येण्याचा</span> डिजिटल प्लॅटफॉर्म
+        </h2>
+        <p class="mt-4 text-lg text-gray-600">संघ सदस्यत्व, उपक्रम, अद्ययावत माहिती, आपत्कालीन संपर्क आणि अधिकारांसाठी लढा – हे सर्व एका अ‍ॅपमध्ये.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#download" class="bg-orange-600 text-white px-5 py-3 rounded-xl hover:bg-orange-700">अ‍ॅप डाउनलोड</a>
+          <a href="#about" class="px-5 py-3 rounded-xl border border-gray-300 hover:border-orange-600 hover:text-orange-700">अधिक जाणून घ्या</a>
+        </div>
+        <p class="mt-3 text-sm text-gray-500">Disclaimer: हे अ‍ॅप कोणत्याही शासकीय संस्थेशी संलग्न नाही.</p>
+      </div>
+      <div class="relative">
+        <!-- Replace with your banner image path -->
+        <img src="./assets/KLS_BANNER.webp" onerror="this.src='https://dummyimage.com/800x420/faf5f0/ff7f00.png&text=Krantikari+Linestaff+Sena'" alt="KLS Banner" class="rounded-2xl w-full h-auto shadow-soft"/>
+        <div class="absolute -bottom-4 left-4 badge px-3 py-1 rounded-full text-orange-700 font-semibold shadow">
+          आवृत्ती v1.0.0
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="anchor-offset bg-white py-12">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-2xl font-bold text-gray-900">अ‍ॅप बद्दल</h3>
+        <p class="mt-4 text-gray-700 leading-relaxed">क्रांतिकारी लाईनस्टाफ सेना हे वीज कर्मचारी, लाईनमन व वितरण कंपनीतील कामगारांसाठी खास, खाजगी (नॉन-गव्हर्नमेंट) अ‍ॅप आहे. सदस्य एकत्र येऊन सुरक्षिततेसाठी, हक्कांसाठी व कल्याणासाठी आवाज उठवू शकतात. या प्लॅटफॉर्मवरून सदस्यत्व अर्ज, सदस्य माहिती, संघाचे उपक्रम, मीटिंग/प्रोटेस्ट अपडेट्स व आपत्कालीन सहाय्य उपलब्ध होते.</p>
+        <ul class="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+          <li>संस्थेचे उद्दिष्ट: हक्कांचे संरक्षण, सुरक्षित कार्यसंस्कृती, शासन/कंपनीपुढे योग्य मागण्या, शासन व बिगरशासकीय योजना माहिती देणे.</li>
+          <li>सूचना: हे अ‍ॅप सरकारी नाही; कोणत्याही शासकीय संस्थेची अधिकृतता नाही.</li>
+        </ul>
+      </div>
+      <div class="bg-orange-50 rounded-2xl p-6 shadow-soft">
+        <h4 class="text-xl font-semibold text-orange-800">रिलीज नोट्स (v1.0.0)</h4>
+        <ul class="mt-3 space-y-2 text-orange-900">
+          <li>✅ संघासाठी डिजिटल प्लॅटफॉर्म</li>
+          <li>✅ सदस्य व्यवस्थापन व शोध</li>
+          <li>✅ उपक्रम/अपडेट्ससाठी रिअल-टाइम सूचना</li>
+        </ul>
+        <p class="mt-3 text-sm text-gray-600">लवकरच: ई‑कार्ड, ऑनलाइन फी पेमेंट, ई‑मतदान, डॉक्युमेंट व्हॉल्ट, सेफ्टी चेकलिस्ट.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="anchor-offset py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold">मुख्य वैशिष्ट्ये</h3>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ संघ सदस्यत्व</h4>
+          <p class="mt-2 text-gray-700">नवीन सदस्यांना अ‍ॅपमधून सहज जोडा व मंजुरी प्रक्रिया ट्रॅक करा.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ सदस्य माहिती</h4>
+          <p class="mt-2 text-gray-700">संपर्क, पद, विभाग इ. तपशील एकाच ठिकाणी सुरक्षितरीत्या.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ संघाचे उपक्रम</h4>
+          <p class="mt-2 text-gray-700">चालू मोहिमा, मागण्या व निवेदनांची माहिती.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ इव्हेंट्स व अपडेट्स</h4>
+          <p class="mt-2 text-gray-700">मीटिंग, आंदोलन, नोटिसेस यांचे नोटिफिकेशन्स.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ आपत्कालीन सहाय्य</h4>
+          <p class="mt-2 text-gray-700">आपत्कालीन संपर्कांना थेट कॉल/मेसेज.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="font-semibold text-orange-700">✅ सदस्य लाभ</h4>
+          <p class="mt-2 text-gray-700">नोंदणीकृत सदस्यांसाठी विशेष सुविधा व समर्थन.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership CTA -->
+  <section id="membership" class="anchor-offset py-12 bg-white">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">सदस्यत्व घ्या</h3>
+        <p class="mt-3 text-gray-700">लाईनमन आणि वीज कर्मचारी म्हणून आपला आवाज मजबूत करा. खालील फॉर्म भरून प्राथमिक नोंदणी करा. मंजुरीनंतर ई‑कार्ड मिळेल.</p>
+        <ul class="mt-3 list-disc list-inside text-gray-700">
+          <li>किमान माहिती: पूर्ण नाव, मोबाईल, विभाग/कंपनी, पद</li>
+          <li>केवायसी: ओळखपत्र प्रत (आधार/आयडी), फोटो</li>
+          <li>वार्षिक फी: ₹___ (लागू असल्यास)</li>
+        </ul>
+      </div>
+      <form class="bg-gray-50 p-6 rounded-2xl shadow-soft">
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="block text-sm">पूर्ण नाव
+            <input type="text" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="उदा. श्री. प्रशांत पाटील" required>
+          </label>
+          <label class="block text-sm">मोबाईल क्रमांक
+            <input type="tel" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="९८७६५४३२१०" required>
+          </label>
+          <label class="block text-sm">कंपनी/विभाग
+            <input type="text" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="महाराष्ट्र राज्य विद्युत वितरण कंपनी">
+          </label>
+          <label class="block text-sm">पद
+            <input type="text" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="लाईनमन / तंत्रज्ञ / अध्यक्ष">
+          </label>
+          <label class="block text-sm md:col-span-2">फोटो
+            <input type="file" accept="image/*" class="mt-1 w-full border rounded-lg px-3 py-2">
+          </label>
+        </div>
+        <div class="mt-4 flex items-start gap-2">
+          <input id="agree" type="checkbox" class="mt-1" required>
+          <label for="agree" class="text-sm">मी <a href="#terms" class="text-orange-700 underline">अटी व शर्ती</a> व <a href="#privacy" class="text-orange-700 underline">गोपनीयता धोरण</a> वाचले असून सहमती देत आहे.</label>
+        </div>
+        <button type="button" class="mt-4 w-full bg-orange-600 text-white py-2 rounded-xl hover:bg-orange-700">प्राथमिक नोंदणी सबमिट</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section id="activities" class="anchor-offset py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold">संघाचे उपक्रम</h3>
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="bg-white rounded-2xl p-6 shadow-soft">
+          <h4 class="font-semibold">सुरक्षितता अभियान</h4>
+          <p class="text-gray-700 mt-2">पीपीई, लॉक‑आउट/टॅग‑आउट, उंचीवर काम, पावसाळी मार्गदर्शिका.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-soft">
+          <h4 class="font-semibold">मागण्या व निवेदने</h4>
+          <p class="text-gray-700 mt-2">योग्य विमा, साधनसामग्री, ओव्हरटाइम, प्रशिक्षण व पदोन्नती.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-soft">
+          <h4 class="font-semibold">कौशल्य विकास</h4>
+          <p class="text-gray-700 mt-2">वर्कशॉप्स, ऑनलाइन वेबिनार्स, तांत्रिक मार्गदर्शक पुस्तिका.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events / Updates -->
+  <section id="events" class="anchor-offset py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold">मीटिंग व अपडेट्स</h3>
+      <div class="mt-6 space-y-4">
+        <div class="p-5 rounded-2xl bg-gray-50 border">
+          <p class="text-sm text-gray-500">अपडेट – २०२५‑०९‑०१</p>
+          <h4 class="font-semibold">जिल्हा पातळीवरील बैठक</h4>
+          <p class="text-gray-700">तालुका समन्वयक निवड व सुरक्षा प्रशिक्षण अजेंडा.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-gray-50 border">
+          <p class="text-sm text-gray-500">अपडेट – २०२५‑०८‑२०</p>
+          <h4 class="font-semibold">पीपीई वितरण मोहीम</h4>
+          <p class="text-gray-700">नवीन सदस्यांना किट वाटप व डेमो.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency -->
+  <section id="emergency" class="anchor-offset py-12 bg-gray-50">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">आपत्कालीन संपर्क</h3>
+        <p class="mt-2 text-gray-700">गंभीर प्रसंगी खालील क्रमांक/हेल्पलाईन्सवर संपर्क साधा.</p>
+        <ul class="mt-4 space-y-2 text-gray-800">
+          <li>🔸 संघ आपत्कालीन समन्वयक: <a href="tel:9999999999" class="text-orange-700">99999 99999</a></li>
+          <li>🔸 जिल्हा समन्वयक: <a href="tel:8888888888" class="text-orange-700">88888 88888</a></li>
+          <li>🔸 १०८ आपत्कालीन सेवा / १०० पोलिस</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-soft">
+        <h4 class="font-semibold">सेफ्टी टिप्स</h4>
+        <ul class="mt-3 list-disc list-inside text-gray-700">
+          <li>वैयक्तिक संरक्षक साहित्य (PPE) नेहमी वापरा.</li>
+          <li>दुरुस्तीपूर्वी पूर्ण शट‑डाउन व लॉक‑आउट/टॅग‑आउट पाळा.</li>
+          <li>ओल्या हवामानात उंचीवरील काम टाळा.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / Gateway helper -->
+  <section id="pricing" class="anchor-offset py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold">सदस्यत्व शुल्क व योजना</h3>
+      <p class="mt-2 text-gray-700">पेमेंट गेटवे सत्यापनासाठी आवश्यक पृष्ठ म्हणून हे विभाग स्पष्ट व सार्वजनिक आहे.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="border rounded-2xl p-6">
+          <h4 class="font-semibold">बेसिक</h4>
+          <p class="text-3xl font-extrabold mt-2">₹___/वर्ष</p>
+          <ul class="mt-3 text-sm space-y-1 text-gray-700">
+            <li>सदस्यत्व कार्ड</li>
+            <li>उपक्रम अपडेट्स</li>
+          </ul>
+          <a href="#payment" class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded-xl">शुल्क भरा</a>
+        </div>
+        <div class="border-2 border-orange-600 rounded-2xl p-6">
+          <h4 class="font-semibold">प्रिमियम</h4>
+          <p class="text-3xl font-extrabold mt-2">₹___/वर्ष</p>
+          <ul class="mt-3 text-sm space-y-1 text-gray-700">
+            <li>वरील सर्व + विशेष प्रशिक्षण</li>
+            <li>प्राथमिकता सपोर्ट</li>
+          </ul>
+          <a href="#payment" class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded-xl">शुल्क भरा</a>
+        </div>
+        <div class="border rounded-2xl p-6">
+          <h4 class="font-semibold">संस्थात्मक</h4>
+          <p class="text-3xl font-extrabold mt-2">कस्टम</p>
+          <p class="mt-2 text-sm text-gray-700">विभाग/युनिटनिहाय करार.</p>
+          <a href="#contact" class="mt-4 inline-block border px-4 py-2 rounded-xl">संपर्क करा</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEGAL PAGES (for Payment Gateway Verification) -->
+  <section id="legal" class="anchor-offset py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold">कायदेशीर धोरणे</h3>
+      <p class="text-gray-700 mt-2">पेमेंट गेटवे/केवायसी सत्यापनासाठी आवश्यक सार्वजनिक पृष्ठे खाली दिलेली आहेत. प्रत्येक पृष्ठ स्वतंत्र URL (हॅश) वर उपलब्ध आहे.</p>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <!-- Terms -->
+        <article id="terms" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">अटी व शर्ती</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            हे प्लॅटफॉर्म स्वयंसेवी संघटनेचा डिजिटल मंच आहे. सेवा "जशी आहे तशी" उपलब्ध. खाते/सदस्यत्व माहिती अचूक ठेवणे सदस्याची जबाबदारी आहे. कुठल्याही गैरवर्तनावर खाते निलंबित केले जाऊ शकते. पेमेंटसाठी भारतीय कायदे लागू होतील. विवाद निवारणासाठी [आपला जिल्हा] न्यायक्षेत्र लागू.
+          </p>
+        </article>
+        <!-- Privacy -->
+        <article id="privacy" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">गोपनीयता धोरण</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            आम्ही केवळ सेवेसाठी आवश्यक माहिती (नाव, मोबाईल, विभाग, केवायसी) गोळा करतो. माहिती सुरक्षित सर्व्हरवर साठवली जाते व तृतीय पक्षास विकली जात नाही. कायदेशीर गरज पडल्यास संबंधित अधिकाऱ्यांना माहिती दिली जाऊ शकते. कुकीज/विश्लेषण फक्त कार्यक्षमता व सुधारणा यासाठी.
+          </p>
+        </article>
+        <!-- Refund -->
+        <article id="refund" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">रिफंड व रद्दकरण धोरण</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            सदस्यत्व शुल्क सामान्यतः परत न होणारे आहे. पेमेंट दरम्यान द्विगुणी डेबिट/तांत्रिक त्रुटी असल्यास ७‑१० कामकाजाच्या दिवसांत पडताळणीनंतर परतावा केला जाईल. चुकीची माहिती दिल्यास परतावा लागू नाही. रद्दकरणासाठी support@kls.example वर तक्रार नोंदवा.
+          </p>
+        </article>
+        <!-- Shipping -->
+        <article id="shipping" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">शिपिंग/डिलिव्हरी धोरण</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            हे डिजिटल सेवा/सदस्यत्व आहे. कोणताही भौतिक माल पाठवला जात नाही. ई‑कार्ड/पावती ईमेल/अ‍ॅपमध्ये उपलब्ध होईल.
+          </p>
+        </article>
+        <!-- Disclaimer -->
+        <article id="disclaimer" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">अस्वीकरण</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            हे अ‍ॅप शासकीय/वितरण कंपन्यांशी अधिकृतरीत्या संलग्न नाही. येथे व्यक्त केलेले विचार/मागण्या संघटनेचे आहेत. माहितीतील चूक/उशीराबद्दल जबाबदारी मर्यादित.
+          </p>
+        </article>
+        <!-- Grievance -->
+        <article id="grievance" class="anchor-offset bg-white p-6 rounded-2xl shadow-soft">
+          <h4 class="text-xl font-semibold">तक्रार निवारण अधिकारी</h4>
+          <p class="mt-2 text-gray-700 text-sm leading-relaxed">
+            नाव: [तक्रार निवारण अधिकारी]
+            <br/>ईमेल: grievance@kls.example
+            <br/>फोन: +91‑XXXXXXXXXX
+            <br/>पत्ता: [संपूर्ण पत्ता, शहर, राज्य, पिन]
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="anchor-offset py-12 bg-white">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-bold">संपर्क</h3>
+        <p class="mt-2 text-gray-700">कृपया अधिक माहितीसाठी खालील फॉर्म भरा किंवा तपशीलांचा वापर करा.</p>
+        <ul class="mt-3 text-gray-800 space-y-1">
+          <li>ईमेल: <a href="mailto:support@kls.example" class="text-orange-700">support@kls.example</a></li>
+          <li>मोबाईल: <a href="tel:+919999999999" class="text-orange-700">+91 99999 99999</a></li>
+          <li>पत्ता: [कार्यालयाचा संपूर्ण पत्ता]</li>
+        </ul>
+      </div>
+      <form class="bg-gray-50 p-6 rounded-2xl shadow-soft">
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="block text-sm">नाव
+            <input type="text" class="mt-1 w-full border rounded-lg px-3 py-2" required>
+          </label>
+          <label class="block text-sm">मोबाईल/ईमेल
+            <input type="text" class="mt-1 w-full border rounded-lg px-3 py-2" required>
+          </label>
+          <label class="block text-sm md:col-span-2">संदेश
+            <textarea class="mt-1 w-full border rounded-lg px-3 py-2" rows="4" required></textarea>
+          </label>
+        </div>
+        <button type="button" class="mt-4 w-full bg-orange-600 text-white py-2 rounded-xl hover:bg-orange-700">संदेश पाठवा</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Download / CTA -->
+  <section id="download" class="anchor-offset py-12 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold">अ‍ॅप डाउनलोड</h3>
+      <p class="mt-2 text-gray-700">लवकरच Google Play वर उपलब्ध. दरम्यान APK/लिंकसाठी संपर्क करा.</p>
+      <div class="mt-4 flex gap-3 justify-center">
+        <a href="#" class="px-5 py-3 rounded-xl bg-black text-white">Google Play (लवकरच)</a>
+        <a href="#contact" class="px-5 py-3 rounded-xl border">APK मागवा</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200">
+    <div class="container mx-auto px-4 py-10 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="./assets/KLS_LOGO.webp" onerror="this.src='https://dummyimage.com/48x48/ff7f00/ffffff.png&text=K'" alt="KLS" class="w-12 h-12 rounded-full"/>
+          <h4 class="font-semibold">क्रांतिकारी लाईनस्टाफ सेना</h4>
+        </div>
+        <p class="text-sm mt-3 opacity-80">वीज कर्मचारी व लाईनमन यांच्यासाठी एकत्र येण्याचा डिजिटल मंच.</p>
+      </div>
+      <div>
+        <h5 class="font-semibold">क्विक लिंक्स</h5>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#about" class="hover:text-white">बद्दल</a></li>
+          <li><a href="#membership" class="hover:text-white">सदस्यत्व</a></li>
+          <li><a href="#events" class="hover:text-white">अपडेट्स</a></li>
+          <li><a href="#contact" class="hover:text-white">संपर्क</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-semibold">कायदेशीर</h5>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#terms" class="hover:text-white">अटी व शर्ती</a></li>
+          <li><a href="#privacy" class="hover:text-white">गोपनीयता धोरण</a></li>
+          <li><a href="#refund" class="hover:text-white">रिफंड/रद्दकरण</a></li>
+          <li><a href="#disclaimer" class="hover:text-white">अस्वीकरण</a></li>
+          <li><a href="#grievance" class="hover:text-white">तक्रार निवारण</a></li>
+          <li><a href="#shipping" class="hover:text-white">शिपिंग/डिलिव्हरी</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-semibold">नोंदणी/केवायसी माहिती</h5>
+        <p class="text-sm mt-3 opacity-80">संस्थेचे कायदेशीर तपशील (PAN/GST, नोंदणी क्र., अधिकृत पत्ता) येथे प्रकाशित करा – पेमेंट गेटवे सत्यापनासाठी आवश्यक.</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-700">
+      <div class="container mx-auto px-4 py-4 text-sm flex flex-col md:flex-row gap-2 justify-between">
+        <span>© <span id="y"></span> Krantikari Linestaff Sena. सर्व हक्क राखीव.</span>
+        <span>डिझाइन व विकास: <a class="hover:text-white" href="#">आपली टीम</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // dynamic year
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const id=a.getAttribute('href');
+        if(id.length>1){
+          const el=document.querySelector(id);
+          if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+        }
+      });
+    });
+  </script>
+</body>
+</html>
